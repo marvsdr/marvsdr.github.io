@@ -231,6 +231,10 @@ body {
         margin-top: 16px;
     }
 
+    .exp-section ul li span {
+        color: white;
+    }
+
 .exp-wrapper {
     display: inline-flex;
 }
@@ -356,3 +360,4 @@ body {
         font-size: 40px;
     }
 }
+
