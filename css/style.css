@@ -30,6 +30,14 @@ table {
   border-spacing: 0;
 }
 
+.orbitron {
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+.audiowide {
+    font-family: 'Audiowide', cursive;
+}
+
 .white {
     color: white;
 }
@@ -152,7 +160,7 @@ body {
 .about-me {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: #313131;
+    background-image: linear-gradient(to bottom, rgb(0 0 0), rgb(31 28 27));
 }
 
     .about-me h1 {
@@ -164,11 +172,18 @@ body {
     .about-me h3 {
         font-family: 'Iceland', cursive;
         color: #ffffff;
+        margin-bottom: 26px;
+    }
+
+    .about-me p {
+        font-family: 'Iceland', cursive;
+        color: white;
+        font-size: 22px;
     }
 
 .marvs-pic {
     width: auto;
-    box-shadow: 0px 0px 8px 3px #0e0e0e;
+    box-shadow: 3px 2px 8px 0px #000000;
     max-height: 380px;
     border-radius: 5px;
 }
@@ -180,20 +195,23 @@ body {
     margin-top: 20px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
-    box-shadow: 0px 0px 8px #5cbdaa;
+    box-shadow: 3px 2px 8px 0px #5cbdaa;
     border-radius: 5px;
     background: #00000063;
     color: white;
     cursor: pointer;
+    margin-right: 25px;
 }
 
     .my-portfolio-btn:hover {
-        box-shadow: 0px 0px 8px #ffffff;
+        box-shadow: 3px 2px 8px 0px #ffffff;
         color: #5cbdaa;
     }
 
 .exp-section {
-    background: black;
+    /*    background: black;*/
+    background: url(../assets/exp-bg.jpg) center center;
+    background-size: cover;
     padding-top: 70px;
     padding-bottom: 70px;
 }
@@ -235,8 +253,40 @@ body {
         color: white;
     }
 
+.skills-row-wrapper {
+    background: #000000c2;
+    padding: 34px;
+    box-shadow: 0px 1px 8px 0px #ffffff;
+}
+
+.skills-section {
+    background-image: linear-gradient(to bottom, rgb(0 0 0), rgb(42 38 37));
+    background: url(../assets/footer-bg.jpg) center center;
+    background-size: cover;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.skills-section h1 {
+    font-size: 24px;
+    font-family: 'Audiowide', cursive;
+    color: white;
+    padding-bottom: 40px;
+    color: #5cbdaa;
+}
+
 .exp-wrapper {
     display: inline-flex;
+}
+
+.progress {
+    margin-bottom: 30px;
+    height: 2rem!important;
+}
+
+.progress-bar {
+    color: #000 !important;
+    background-color: #0088f1!important;
 }
 
 @media (min-width: 576px) {
@@ -260,12 +310,20 @@ body {
         font-size: 45px;
     }
 
+    .skills-section h1 {
+        font-size: 45px;
+    }
+    
     .about-me-wrapper {
         display: inline-flex;
     }
 
     .marvs-pic {
         float: right;
+    }
+
+    .skills-row-wrapper {
+        display: inline-flex;
     }
 
 }
@@ -297,9 +355,6 @@ body {
         background: #499788 !important;
         width: 100%;
     }
-
-
-
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -308,9 +363,12 @@ body {
         font-size: 33px;
     }
 
-
     .border-left-green {
         border-left: 1px solid #5cbdaa;
+    }
+
+    .marvs-pic {
+        max-height: 470px;
     }
 }
 
@@ -332,9 +390,13 @@ body {
         font-size: 62px;
     }
 
+    .skills-section h1 {
+        font-size: 62px;
+    }
+
     .about-me h3 {
         font-family: 'Iceland', cursive;
-        font-size: 36px;
+        font-size: 24px;
     }
 }
 
@@ -356,8 +418,12 @@ body {
         font-size: 60px;
     }
 
+    .skills-section h1 {
+        font-size: 60px;
+    }
+
     .about-me h3 {
-        font-size: 40px;
+        font-size: 28px;
     }
 }
 
