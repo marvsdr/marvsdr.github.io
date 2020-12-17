@@ -101,25 +101,25 @@ body {
     text-decoration: underline;
 }
 
-    #intro h2 {
-        text-transform: uppercase;
-        font-size: 18px;
-        color: #ffffff;
-        letter-spacing: 0.05em;
-        font-family: 'Orbitron', sans-serif;
-        font-weight: 700;
-        box-shadow: -1px 0px 8px #5cbdaa;
-        border-radius: 5px;
-        background: #5cbdaa63;
-        padding: 9px;
-    }
+#intro h2 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0.05em;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    box-shadow: -1px 0px 8px #0088f1;
+    border-radius: 5px;
+    background: #0088f136;
+    padding: 9px;
+}
 
 #intro h3 {
     font-family: 'Audiowide', cursive;
     font-size: 18px;
     line-height: 19px;
     margin-top: 20px;
-    color: white;
+    color: #0088f1;
 }
 
 .socials {
@@ -195,17 +195,17 @@ body {
     margin-top: 20px;
     font-family: 'Orbitron', sans-serif;
     font-weight: 700;
-    box-shadow: 3px 2px 8px 0px #5cbdaa;
-    border-radius: 5px;
     background: #00000063;
-    color: white;
     cursor: pointer;
     margin-right: 25px;
+    border-radius: 5px;
+    box-shadow: -1px 0px 8px #5cbdaa;
+    color: #5cbdaa;
 }
 
     .my-portfolio-btn:hover {
-        box-shadow: 3px 2px 8px 0px #ffffff;
-        color: #5cbdaa;
+        box-shadow: -1px 0px 8px #0088f1;
+        color: #0088f1;
     }
 
 .exp-section {
@@ -221,7 +221,7 @@ body {
         font-family: 'Audiowide', cursive;
         color: white;
         padding-bottom: 40px;
-        color: #5cbdaa;
+        color: #0088f1;
     }
 
     .exp-section h3, .exp-section h4, .exp-section h5 {
@@ -245,7 +245,7 @@ body {
 
     .exp-section ul li {
         list-style: disc;
-        color: #5cbdaa;
+        color: #0088f1;
         margin-top: 16px;
     }
 
@@ -256,7 +256,7 @@ body {
 .skills-row-wrapper {
     background: #000000c2;
     padding: 34px;
-    box-shadow: 0px 1px 8px 0px #ffffff;
+    box-shadow: 0px 1px 8px 0px #5cbdaa;
 }
 
 .skills-section {
@@ -286,7 +286,7 @@ body {
 
 .progress-bar {
     color: #000 !important;
-    background-color: #0088f1!important;
+    background-color: #5cbdaa !important;
 }
 
 @media (min-width: 576px) {
@@ -340,7 +340,7 @@ body {
     }
 
     .border-top-green {
-        border-top: 1px solid #5cbdaa;
+        border-top: 1px solid #0186ed;
         margin-top: 30px;
         padding-top: 26px;
     }
@@ -364,7 +364,7 @@ body {
     }
 
     .border-left-green {
-        border-left: 1px solid #5cbdaa;
+        border-left: 1px solid #0088f1;
     }
 
     .marvs-pic {
